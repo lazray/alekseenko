@@ -8,8 +8,10 @@ public class Main03 {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Введите значение целое натуральное число ");
-        // Вводимое значение
-        int x = in.nextInt();
+
+        int x;
+// Вводимое значение
+        x = in.nextInt();
 
         //Вычисление четного числа
         int y = ((x / 2) * 2 + 2);
