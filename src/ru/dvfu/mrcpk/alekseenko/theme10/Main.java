@@ -23,6 +23,23 @@ public class Main {
 
         rectangle1.draw();
 
+        // Создание объекта треугольник
+        Triangle triangle1 = new Triangle(30, 20, 30);
+
+
+        triangle1.draw();
+
+
+        System.out.println("\nНазначаем произвольные параметры:");
+        // Назначаем параметры
+
+
+        System.out.println("Введите размер сторон треугльника, a  b  с");
+        triangle1.setAB(in.nextFloat(), in.nextFloat(), in.nextFloat());
+
+
+        triangle1.draw();
+
 
     }
 }
