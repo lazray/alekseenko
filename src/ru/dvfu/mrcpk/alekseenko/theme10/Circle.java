@@ -28,8 +28,8 @@ public class Circle extends Shape{
     public void setR(float r) {
         this.r = r;
     }
-    @Override
-    double getArea() {retun Math.Pi * r * r;}
+    //@Override
+    double getArea() {return Math.PI * r * r;}
 
     // Метод отображения окружности
     @Override
